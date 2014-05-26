@@ -54,7 +54,7 @@ static const CGSize Drop_Size = {40, 40};
     dropView.backgroundColor = [self randomColor];
     [self.gameView addSubview:dropView];
     
-    [self.dropItBehavior addAnItem:dropView];
+    [self.dropItBehavior addItem:dropView];
 }
 
 - (UIColor *)randomColor

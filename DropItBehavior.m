@@ -34,7 +34,7 @@
     return _collider;
 }
 
--(void)addAnItem:(id <UIDynamicItem>)item
+-(void)addItem:(id <UIDynamicItem>)item
 {
     [self.gravity addItem:item];
     [self.collider addItem:item];
@@ -48,7 +48,6 @@
 
 - (instancetype)init
 {
-    
     self = [super init];
     [self addChildBehavior:self.gravity];
     [self addChildBehavior:self.collider];

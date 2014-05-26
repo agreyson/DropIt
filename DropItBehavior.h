@@ -10,7 +10,7 @@
 
 @interface DropItBehavior : UIDynamicBehavior
 
--(void)addAnItem:(id <UIDynamicItem>)item;
+-(void)addItem:(id <UIDynamicItem>)item;
 -(void)removeItem:(id <UIDynamicItem>)item;
 
 
