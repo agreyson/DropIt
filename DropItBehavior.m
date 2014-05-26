@@ -48,6 +48,7 @@
 
 - (instancetype)init
 {
+    
     self = [super init];
     [self addChildBehavior:self.gravity];
     [self addChildBehavior:self.collider];
