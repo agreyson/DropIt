@@ -34,7 +34,7 @@
     return _collider;
 }
 
--(void)addItem:(id <UIDynamicItem>)item
+-(void)addAnItem:(id <UIDynamicItem>)item
 {
     [self.gravity addItem:item];
     [self.collider addItem:item];
